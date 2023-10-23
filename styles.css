@@ -1,15 +1,15 @@
-* {
-    background-color: rgb(222, 222, 222);
-    color: rgb(47, 47, 47);
-}
-
-#header {
-    background-color: hotpink;
+.header {
+    background-color: rgb(80, 176, 115);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 100%;
 }
 
 .titulo {
     font-size: x-large;
     font-weight: bolder;
+    color: white;
 }
 
 .main {
@@ -18,4 +18,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .header-logo {
+    width: 5%;
+    height: 5%;
+  }
+
+ .items {
+    text-decoration: none;
+    display: inline;
   }
